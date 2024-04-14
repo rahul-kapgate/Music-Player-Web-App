@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <header>
+      <input type="text" id="searchBar" placeholder="search Music Here.." />
+      <i class="fa-solid fa-magnifying-glass"></i>
+
+      <p id="id1">Trending Song :</p>
+      <p id="id2">chula ke liye mera . . .</p>
+
+      <ul>
+        <li>Language</li>
+        <li><i id="lang" class="fa-solid fa-language"></i></li>
+      </ul>
+
+      <ol>
+        <li><button>Login</button></li>
+        <li><button>Register</button></li>
+      </ol>
+    </header>
+
+    <div class="side-bar">
+      <i id="R" class="fa-solid fa-registered"></i>
+
+      <i id="home-icon" class="fa-solid fa-house"></i>
+
+      <div class="line"></div>
+
+      <i id="playlist" class="fa-brands fa-google-play"></i>
+
+      <div class="line"></div>
+
+      <i id="microphone" class="fa-solid fa-microphone"></i>
+
+      <div class="line"></div>
+
+      <i id="headphones" class="fa-solid fa-headphones"></i>
+
+      <div class="line"></div>
+
+      <i id="wifi" class="fa-solid fa-wifi"></i>
+
+      <i id="download" class="fa-solid fa-download"></i>
+      <div class="line"></div>
+
+      <i id="heart" class="fa-solid fa-heart"></i>
+      <div class="line"></div>
+
+      <i id="rotate-left" class="fa-solid fa-clock-rotate-left"></i>
+
+      <i id="gear" class="fa-solid fa-gear"></i>
+    </div>
+
+    <div class="main">
+      <img
+        id="img"
+        src="/08MusicStorePage/arijit-singh.png"
+        alt="arijit-singh"
+      />
+
+      <div class="heading">This Month's</div>
+      <div class="heading1">Best Songs Album !</div>
+
+      <div class="scroll-container">
+        <div class="song-name"> Dunki Drop 5: O Maahi | Shah Rukh Khan </div>
+      </div>
+
+      <div class="btn-container">
+        <i id="btn1" class="fa-solid fa-play"></i>
+        <i id="stopBtn" class="fa-solid fa-stop"></i>
+        <i id="prevBtn" class="fa-solid fa-backward-step"></i>
+        <i id="nextBtn" class="fa-solid fa-forward-step"></i>
+        
+      </div>
+
+      <h1 id="more-songs">More Song's</h1>
+
+      <div class="song-pics">
+        <img
+          id="song1"
+          src="/08MusicStorePage/Songs/O Maahi.jpg"
+          alt="O mahi ( arijit-singh )"
+          
+        />
+        <img
+          id="song2"
+          src="/08MusicStorePage/Songs/Satranga.jpg"
+          alt="Satranga"
+        />
+        <img
+          id="song3"
+          src="/08MusicStorePage/Songs/Thoda Aur.jpg"
+          alt="Thoda Aur"
+        />
+        <img
+          id="song4"
+          src="/08MusicStorePage/Songs/Tu Hi Hai Aashiqui.jpg"
+          alt="Tu Hi Hai Aashiqui"
+        />
+        <img id="song5" src="/08MusicStorePage/Songs/Rasiya.jpg" alt="Rasiya" />
+      </div>
+
+      <div class="song-pics-name">
+        <p>O mahi</p>
+        <p>Satranga</p>
+        <p>Thoda Aur</p>
+        <p>Tu Hi Hai Aashiqui</p>
+        <p>Rasiya</p>
+      </div>
+
+    </div>
+
+
+    <div class="songs">
+
+      <audio id="audioPlayer" controls src="/08MusicStorePage/Songs/O Maahi - Dunki.mp3"></audio>
+
+      <audio controls src="/08MusicStorePage/Songs/Satranga - Animal.mp3"></audio>
+
+      <audio controls src="/08MusicStorePage/Songs/Thoda Aur - Ranchi Diaries (Arijit Singh) 320Kbps.mp3"></audio>
+
+      <audio controls src="/08MusicStorePage/Songs/Tu Hi Hai Aashiqui (Solo) - Dishkiyaoon (Arijit Singh).mp3"></audio>
+
+      <audio controls  src="/08MusicStorePage/Songs/Rasiya - Arijit Singh Trending Version.mp3"></audio>
+
+    </div>
+
+    <script src="/08MusicStorePage/app.js"></script>
+  </body>
+</html>
+
+
